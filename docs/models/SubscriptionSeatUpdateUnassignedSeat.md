@@ -1,0 +1,11 @@
+# Org.OpenAPITools.Model.SubscriptionSeatUpdateUnassignedSeat
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Quantity** | **decimal** | The number of unassigned seats on the subscription will increase/decrease by this delta. Must be greater than 0. | 
+**StartingAt** | **DateTime** | Unassigned seats will be updated starting at this date. | 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+

@@ -1,0 +1,15 @@
+# Org.OpenAPITools.Model.OptionalThresholdCommitFieldsUpdate
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**ApplicableProductIds** | **List&lt;Guid&gt;** | Which products the threshold commit applies to. If both applicable_product_ids and applicable_product_tags are not provided, the commit applies to all products. | [optional] 
+**ApplicableProductTags** | **List&lt;string&gt;** | Which tags the threshold commit applies to. If both applicable_product_ids and applicable_product_tags are not provided, the commit applies to all products. | [optional] 
+**Specifiers** | [**List&lt;CommitSpecifierInput&gt;**](CommitSpecifierInput.md) | List of filters that determine what kind of customer usage draws down a commit or credit. A customer&#39;s usage needs to meet the condition of at least one of the specifiers to contribute to a commit&#39;s or credit&#39;s drawdown. This field cannot be used together with &#x60;applicable_product_ids&#x60; or &#x60;applicable_product_tags&#x60;. Instead, to target usage by product or product tag, pass those values in the body of &#x60;specifiers&#x60;. | [optional] 
+**Duration** | [**RelativeDate**](RelativeDate.md) | The length of time the created commit will be valid, starting from the end of the invoice&#39;s service period. Set to null to clear a previously configured duration. | [optional] 
+**RolloverFraction** | **decimal** | Fraction of the created commit&#39;s unused balance that will roll over. Must be between 0 and 1. Set to null to clear a previously configured rollover fraction. | [optional] 
+**RateType** | **string** | Whether the created commits will be charged at commit rate or list rate. Set to null to clear a previously configured rate type. | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
