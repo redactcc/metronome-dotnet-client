@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace Metronome.Logging
+namespace Metronome.OpenAPI.Logging
 {
     internal static partial class RestLogEvents
     {

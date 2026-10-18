@@ -12,12 +12,12 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using Metronome.Api;
-using Metronome.Client;
-using Metronome.Extensions;
+using Metronome.OpenAPI.Api;
+using Metronome.OpenAPI.Client;
+using Metronome.OpenAPI.Extensions;
 using Xunit;
 
-namespace Metronome.Test.Api
+namespace Metronome.OpenAPI.Test.Api
 {
     /// <summary>
     ///  Tests the dependency injection.

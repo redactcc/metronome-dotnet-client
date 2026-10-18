@@ -15,11 +15,11 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Net.Http;
-using Metronome.Api;
-using Metronome.Model;
+using Metronome.OpenAPI.Api;
+using Metronome.OpenAPI.Model;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// Provides hosting configuration for Org.OpenAPITools

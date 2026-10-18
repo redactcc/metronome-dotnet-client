@@ -12,7 +12,7 @@
 
 using System;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// The base for all tokens.

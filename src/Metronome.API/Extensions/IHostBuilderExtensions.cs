@@ -10,11 +10,11 @@
 #nullable enable
 
 using System;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Metronome.Extensions
+namespace Metronome.OpenAPI.Extensions
 {
     /// <summary>
     /// Extension methods for IHostBuilder

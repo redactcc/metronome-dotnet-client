@@ -21,9 +21,9 @@ using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 
-namespace Metronome.Model
+namespace Metronome.OpenAPI.Model
 {
     /// <summary>
     /// Required for account hierarchy usage invoices. An object containing the contract and customer UUIDs that pay for this invoice.

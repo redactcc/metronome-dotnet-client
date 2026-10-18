@@ -21,9 +21,9 @@ using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 
-namespace Metronome.Model
+namespace Metronome.OpenAPI.Model
 {
     /// <summary>
     /// Only set for TIERED_PERCENTAGE or PERCENTAGE rate_type. Any commit-specific overrides will not apply if there is a minimum set on the rate/applied override.

@@ -21,9 +21,9 @@ using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 
-namespace Metronome.Model
+namespace Metronome.OpenAPI.Model
 {
     /// <summary>
     /// Configure a rollover for this credit grant so if it expires it rolls over a configured amount to a new credit grant. This feature is currently opt-in only. Contact Metronome to be added to the beta.

@@ -11,10 +11,10 @@
 
 using System;
 using System.Linq;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Metronome.Extensions
+namespace Metronome.OpenAPI.Extensions
 {
     /// <summary>
     /// Extension methods for IServiceCollection

@@ -15,7 +15,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// A token constructed from a token from a bearer token.

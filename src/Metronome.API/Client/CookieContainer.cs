@@ -13,7 +13,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// A class containing a CookieContainer

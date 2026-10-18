@@ -21,9 +21,9 @@ using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 
-namespace Metronome.Model
+namespace Metronome.OpenAPI.Model
 {
     /// <summary>
     /// Only present for low_remaining_seat_balance_reached notifications. The seat group key or seat group key-value pair the alert is scoped to.

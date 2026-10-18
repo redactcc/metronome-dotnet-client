@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE.md = LICENSE.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.API.Test", "src\Metronome.API.Test\Metronome.API.Test.csproj", "{8E8D6D0A-B391-32D8-1223-FC20D3748BD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI.Test", "src\Metronome.API.Test\Metronome.OpenAPI.Test.csproj", "{8E8D6D0A-B391-32D8-1223-FC20D3748BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.API", "src\Metronome.API\Metronome.API.csproj", "{3DE4F2B8-812F-1FBA-7DD5-544A32ACC493}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI", "src\Metronome.API\Metronome.OpenAPI.csproj", "{3DE4F2B8-812F-1FBA-7DD5-544A32ACC493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

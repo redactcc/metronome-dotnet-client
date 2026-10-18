@@ -21,9 +21,9 @@ using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 
-namespace Metronome.Model
+namespace Metronome.OpenAPI.Model
 {
     /// <summary>
     /// The revenue system configuration associated with a contract. Provide either an ID or the provider and delivery method.

@@ -9,7 +9,7 @@
 
 using System;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// Useful for tracking server health

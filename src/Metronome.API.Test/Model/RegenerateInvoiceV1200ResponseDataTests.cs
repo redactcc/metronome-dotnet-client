@@ -14,11 +14,11 @@ using System;
 using System.Linq;
 using System.IO;
 using System.Collections.Generic;
-using Metronome.Model;
-using Metronome.Client;
+using Metronome.OpenAPI.Model;
+using Metronome.OpenAPI.Client;
 using System.Reflection;
 
-namespace Metronome.Test.Model
+namespace Metronome.OpenAPI.Test.Model
 {
     /// <summary>
     ///  Class for testing RegenerateInvoiceV1200ResponseData

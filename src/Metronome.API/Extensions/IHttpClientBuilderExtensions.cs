@@ -16,7 +16,7 @@ using Polly.Timeout;
 using Polly.Extensions.Http;
 using Polly;
 
-namespace Metronome.Extensions
+namespace Metronome.OpenAPI.Extensions
 {
     /// <summary>
     /// Extension methods for IHttpClientBuilder

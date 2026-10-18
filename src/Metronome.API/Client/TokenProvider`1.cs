@@ -12,9 +12,9 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 
-namespace Metronome
+namespace Metronome.OpenAPI
 {
     /// <summary>
     /// A class which will provide tokens.

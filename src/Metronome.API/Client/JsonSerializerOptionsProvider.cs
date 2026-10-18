@@ -12,7 +12,7 @@
 
 using System.Text.Json;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// Provides the JsonSerializerOptions

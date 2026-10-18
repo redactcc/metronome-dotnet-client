@@ -10,9 +10,9 @@
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 using Microsoft.Extensions.Hosting;
-using Metronome.Extensions;
+using Metronome.OpenAPI.Extensions;
 
 
 /* *********************************************************************************
@@ -35,7 +35,7 @@ using Metronome.Extensions;
 */
 
 
-namespace Metronome.Test.Api
+namespace Metronome.OpenAPI.Test.Api
 {
     /// <summary>
     ///  Base class for API tests

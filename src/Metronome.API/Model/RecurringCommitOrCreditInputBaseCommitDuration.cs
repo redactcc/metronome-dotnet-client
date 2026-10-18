@@ -21,9 +21,9 @@ using System.Text.RegularExpressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
-using Metronome.Client;
+using Metronome.OpenAPI.Client;
 
-namespace Metronome.Model
+namespace Metronome.OpenAPI.Model
 {
     /// <summary>
     /// Defines the length of the access schedule for each created commit/credit. The value represents the number of units. Unit defaults to \&quot;PERIODS\&quot;, where the length of a period is determined by the recurrence_frequency.

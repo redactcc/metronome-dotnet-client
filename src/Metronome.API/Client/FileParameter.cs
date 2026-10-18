@@ -10,7 +10,7 @@
 
 #nullable enable
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// Represents a file to be uploaded as part of a multipart/form-data request.

@@ -8,10 +8,10 @@
  */
 
 using System;
-using Metronome.Api;
+using Metronome.OpenAPI.Api;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// An IApiFactory interface

@@ -10,8 +10,8 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Metronome.Api;
-using Metronome.Model;
+using Metronome.OpenAPI.Api;
+using Metronome.OpenAPI.Model;
 using Xunit;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -36,7 +36,7 @@ using Microsoft.Extensions.DependencyInjection;
 */
 
 
-namespace Metronome.Test.Api
+namespace Metronome.OpenAPI.Test.Api
 {
     /// <summary>
     ///  Class for testing InvoicesApi

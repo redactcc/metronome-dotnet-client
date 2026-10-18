@@ -11,7 +11,7 @@
 #nullable enable
 
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// A wrapper for operation parameters which are not required

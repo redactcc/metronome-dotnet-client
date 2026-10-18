@@ -12,7 +12,7 @@
 
 using System;
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// API Exception

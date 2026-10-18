@@ -21,11 +21,11 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Diagnostics.CodeAnalysis;
-using Metronome.Client;
-using Metronome.Logging;
-using Metronome.Model;
+using Metronome.OpenAPI.Client;
+using Metronome.OpenAPI.Logging;
+using Metronome.OpenAPI.Model;
 
-namespace Metronome.Api
+namespace Metronome.OpenAPI.Api
 {
     /// <summary>
     /// Represents a collection of functions to interact with the API endpoints

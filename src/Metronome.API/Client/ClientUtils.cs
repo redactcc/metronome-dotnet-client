@@ -19,11 +19,11 @@ using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Runtime.CompilerServices;
 using System.Net.Http.Headers;
-using Metronome.Model;
+using Metronome.OpenAPI.Model;
 
 [assembly: InternalsVisibleTo("Org.OpenAPITools.Test")]
 
-namespace Metronome.Client
+namespace Metronome.OpenAPI.Client
 {
     /// <summary>
     /// Utility functions providing some benefit to API client consumers.

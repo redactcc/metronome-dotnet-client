@@ -3,8 +3,8 @@
   <PropertyGroup>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo> <!-- setting GenerateAssemblyInfo to false causes this bug https://github.com/dotnet/project-system/issues/3934 -->
     <TargetFramework>net10.0</TargetFramework>
-    <AssemblyName>Metronome.API</AssemblyName>
-    <PackageId>Metronome.API</PackageId>
+    <AssemblyName>Metronome.OpenAPI</AssemblyName>
+    <PackageId>Metronome.OpenAPI</PackageId>
     <PackageIcon>metronome-logo.png</PackageIcon>
     <OutputType>Library</OutputType>
     <Authors>OpenAPI, Jamie Howarth</Authors>
@@ -12,7 +12,7 @@
     <AssemblyTitle>Metronome OpenAPI library implementation</AssemblyTitle>
     <Description>A .NET library for accessing Metronome's OpenAPI-compatible API endpoints</Description>
     <Copyright>OpenAPI, Jamie Howarth</Copyright>
-    <RootNamespace>Metronome.API</RootNamespace>
+    <RootNamespace>Metronome.OpenAPI</RootNamespace>
     <Version>1.0.0</Version>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Metronome.API.xml</DocumentationFile>
     <RepositoryUrl>https://github.com/redactcc/metronome-dotnet-library.git</RepositoryUrl>

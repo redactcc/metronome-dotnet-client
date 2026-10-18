@@ -9,7 +9,7 @@
 
 using System.Net.Http;
 
-namespace Metronome.Api
+namespace Metronome.OpenAPI.Api
 {
     /// <summary>
     /// Any Api client
