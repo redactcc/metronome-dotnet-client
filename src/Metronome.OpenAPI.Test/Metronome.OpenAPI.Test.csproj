@@ -16,6 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Metronome.API\Metronome.OpenAPI.csproj" />
+    <ProjectReference Include="..\Metronome.OpenAPI\Metronome.OpenAPI.csproj" />
   </ItemGroup>
 </Project>

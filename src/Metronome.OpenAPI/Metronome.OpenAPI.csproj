@@ -13,7 +13,7 @@
     <Description>A .NET library for accessing Metronome's OpenAPI-compatible API endpoints</Description>
     <Copyright>OpenAPI, Jamie Howarth</Copyright>
     <RootNamespace>Metronome.OpenAPI</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>0.1.0</Version>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Metronome.API.xml</DocumentationFile>
     <RepositoryUrl>https://github.com/redactcc/metronome-dotnet-library.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>

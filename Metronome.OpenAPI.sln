@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE.md = LICENSE.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI.Test", "src\Metronome.API.Test\Metronome.OpenAPI.Test.csproj", "{8E8D6D0A-B391-32D8-1223-FC20D3748BD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI", "src\Metronome.OpenAPI\Metronome.OpenAPI.csproj", "{2D71C495-358E-0E01-A98D-E565414C6B28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI", "src\Metronome.API\Metronome.OpenAPI.csproj", "{3DE4F2B8-812F-1FBA-7DD5-544A32ACC493}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI.Test", "src\Metronome.OpenAPI.Test\Metronome.OpenAPI.Test.csproj", "{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E8D6D0A-B391-32D8-1223-FC20D3748BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8E8D6D0A-B391-32D8-1223-FC20D3748BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8E8D6D0A-B391-32D8-1223-FC20D3748BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8E8D6D0A-B391-32D8-1223-FC20D3748BD5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DE4F2B8-812F-1FBA-7DD5-544A32ACC493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DE4F2B8-812F-1FBA-7DD5-544A32ACC493}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DE4F2B8-812F-1FBA-7DD5-544A32ACC493}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DE4F2B8-812F-1FBA-7DD5-544A32ACC493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
