@@ -23,6 +23,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Package
+      run: dotnet pack -o artifacts --include-symbols
       # Build your artifacts/my-sdk.nupkg package here
     
       # Get a short-lived NuGet API key
