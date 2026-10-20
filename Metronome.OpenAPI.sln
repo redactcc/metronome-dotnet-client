@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12308.306
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A72B09AD-1B4C-4D86-A864-EC9ADCB307B1}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI", "src\Metronome.OpenAPI\Metronome.OpenAPI.csproj", "{2D71C495-358E-0E01-A98D-E565414C6B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metronome.OpenAPI.Test", "src\Metronome.OpenAPI.Test\Metronome.OpenAPI.Test.csproj", "{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D71C495-358E-0E01-A98D-E565414C6B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F30FD32-4AF5-9746-FDD1-4359F7ECDB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8311D87B-69E1-4F23-B3CD-125E667560A9}
+	EndGlobalSection
+EndGlobal
